@@ -1,4 +1,4 @@
-class Sshpass_pass < Formula
+class SshpassOtp < Formula
   desc "sshpass with TOTP support"
   homepage "https://github.com/dora38/sshpass"
   url "https://github.com/dora38/sshpass/archive/refs/heads/main.zip"
