@@ -4,9 +4,9 @@ class SshpassOtp < Formula
   url "https://github.com/dora38/sshpass/archive/refs/heads/main.zip"
   version "1.09.1"
   sha256 ""
-  license ""
+  license "GPL-2.0-only"
 
-  depends_on "automake"
+  depends_on "automake" # => :build
 
 
   def install
@@ -16,6 +16,6 @@ class SshpassOtp < Formula
   end
 
   test do
-    system "true"
+    system "make", "check"
   end
 end
