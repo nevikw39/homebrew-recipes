@@ -7,5 +7,5 @@ cask "ftdi-usb-serial-dext-installer" do
     desc ""
     homepage "https://ftdichip.com/drivers/vcp-drivers/"
 
-    app "FTDIUSBSerialDextInstaller_1_5_0.app"
+    app "FTDIUSBSerialDextInstaller_#{version.dots_to_underscores}.app"
 end
